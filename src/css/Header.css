@@ -1,0 +1,38 @@
+.header {
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem;
+  z-index: 10;
+}
+.header_left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: #775de9;
+}
+.header_logo {
+  font-size: 25px;
+  margin-right: 20px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.navlink {
+  margin-top: 5px;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.logout {
+  cursor: pointer;
+  font-size: 15px;
+  margin-right: 20px;
+  color: #775de9;
+  font-weight: 600;
+}
